@@ -308,6 +308,10 @@
                   "functionBody": "return model.devices && model.devices[arrayIndices] && ['RGBTWLight','RGBTWOutlet'].includes(model.devices[arrayIndices].type);"
                 }
               },
+              "linearWhiteColor": {
+                "type": "boolean",
+                "title": "Use linear white-color scaling between minWhiteColor and maxWhiteColor"
+              },
               "outletCount": {
                 "type": "integer",
                 "placeholder": "5",
