@@ -259,6 +259,34 @@
                   "functionBody": "return model.devices && model.devices[arrayIndices] && ['RGBTWLight','RGBTWOutlet'].includes(model.devices[arrayIndices].type);"
                 }
               },
+              "coldPresetHue": {
+                "type": "number",
+                "placeholder": "51",
+                "condition": {
+                  "functionBody": "return model.devices && model.devices[arrayIndices] && ['RGBTWLight','RGBTWOutlet'].includes(model.devices[arrayIndices].type);"
+                }
+              },
+              "coldPresetSaturation": {
+                "type": "number",
+                "placeholder": "51",
+                "condition": {
+                  "functionBody": "return model.devices && model.devices[arrayIndices] && ['RGBTWLight','RGBTWOutlet'].includes(model.devices[arrayIndices].type);"
+                }
+              },
+              "warmPresetHue": {
+                "type": "number",
+                "placeholder": "35",
+                "condition": {
+                  "functionBody": "return model.devices && model.devices[arrayIndices] && ['RGBTWLight','RGBTWOutlet'].includes(model.devices[arrayIndices].type);"
+                }
+              },
+              "warmPresetSaturation": {
+                "type": "number",
+                "placeholder": "80",
+                "condition": {
+                  "functionBody": "return model.devices && model.devices[arrayIndices] && ['RGBTWLight','RGBTWOutlet'].includes(model.devices[arrayIndices].type);"
+                }
+              },
               "colorFunction": {
                 "type": "string",
                 "placeholder": "HEXHSB",
