@@ -18,6 +18,8 @@
 
 Control your supported Tuya accessories locally in HomeKit
 
+> Need a fresh local key? Follow the [LEDVANCE/Tuya key extraction guide](read_keys.md) before configuring the plugin.
+
 * [Supported Device Types](#supported-device-types)
 * [Installation Instructions](#installation-instructions)
 * [Configuration](#configuration)
